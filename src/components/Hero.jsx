@@ -45,21 +45,23 @@ const Hero = () => {
               View My Projects
               <ChevronRight size={20} className="icon-right" />
             </a>
-            <a href="https://linkedin.com/in/puja-karmakar-161283194" target="_blank" rel="noreferrer" className="btn-icon glass-panel">
-              <Linkedin size={20} />
-            </a>
-            <a href="https://github.com/puja-ui" target="_blank" rel="noreferrer" className="btn-icon glass-panel">
-              <Github size={20} />
-            </a>
-            <a href="mailto:pujakarmakar2k@gmail.com" className="btn-icon glass-panel">
-              <Mail size={20} />
-            </a>
-            <a href="tel:+916294920083" className="btn-icon glass-panel" title="Call Me">
-              <Phone size={20} />
-            </a>
-            <a href="https://drive.google.com/file/d/1rsC3C2J2UIYXBkYtw5dam8wS3Kzx1fG0/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-icon glass-panel" title="Download Resume">
-              <FileText size={20} />
-            </a>
+            <div className="hero-socials">
+              <a href="https://linkedin.com/in/puja-karmakar-161283194" target="_blank" rel="noreferrer" className="btn-icon glass-panel">
+                <Linkedin size={20} />
+              </a>
+              <a href="https://github.com/puja-ui" target="_blank" rel="noreferrer" className="btn-icon glass-panel">
+                <Github size={20} />
+              </a>
+              <a href="mailto:pujakarmakar2k@gmail.com" className="btn-icon glass-panel">
+                <Mail size={20} />
+              </a>
+              <a href="tel:+916294920083" className="btn-icon glass-panel" title="Call Me">
+                <Phone size={20} />
+              </a>
+              <a href="https://drive.google.com/file/d/1rsC3C2J2UIYXBkYtw5dam8wS3Kzx1fG0/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-icon glass-panel" title="Download Resume">
+                <FileText size={20} />
+              </a>
+            </div>
           </div>
         </div>
         
