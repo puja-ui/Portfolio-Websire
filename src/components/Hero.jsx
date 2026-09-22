@@ -57,7 +57,7 @@ const Hero = () => {
             <a href="tel:+916294920083" className="btn-icon glass-panel" title="Call Me">
               <Phone size={20} />
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn-icon glass-panel" title="Download Resume">
+            <a href="https://drive.google.com/file/d/1rsC3C2J2UIYXBkYtw5dam8wS3Kzx1fG0/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-icon glass-panel" title="Download Resume">
               <FileText size={20} />
             </a>
           </div>
